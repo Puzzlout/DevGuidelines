@@ -74,32 +74,21 @@ For reworking/updating:
 - assign to: original developer.
 - comment: explain what is not done properly.
 
-#6. Task(s) code review​
+#6. Task release
 
-The lead dev review the tasks done and validate them if they are ok or ask the developer to make updates as described.
+After a few tasks are reviewed or if a given task that is urgent and must be released, the responsable of deployment will prepare a release.
 
-For validation:
-- set status:to release
-- assign to: lead dev
+- Set version:MAJOR.minor.patch.build (build is found on Travis at the last commit of the last task completed for the release)
+- Set a tag: MAJOR.minor.patch.build
 
-For reworking/updating: 
-- set status:in dev
-- assign to: original developer
-#7. Task release
+Once the release is live, the responsable of deployment let the client know by email.
 
-After a few tasks are reviewed or if a given task that is urgent and must be released, the lead dev will prepare a release.
+- Set Pipeline: Review/QA
+- Assign to: none
 
-- Set status:to release
-- Set version:MAJOR.minor.patch.build
+#7. Client QA on target website
 
-Once the release is live, the lead dev let the reviewer know using the @mention.
-
-- Set status:unit testing
-- Assign to: reviewer
-
-#8. Client QA on target website
-
-The reviewer will perform a unit test to test the integrity of the application and will test that each task completed gives the expected output.
+The client will perform a QA to test the integrity of the application and will test that each task completed gives the expected output.
 
 If the task is completed successfully:
 - the reviewer closes the issue
