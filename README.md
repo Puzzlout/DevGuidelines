@@ -10,3 +10,6 @@ At every commit, be sure to verify the following points that part of the [Simple
 2. Reveals intention
 3. No duplication
 4. Fewest elements
+
+## General guides
+Read from [ThoughtBot](https://github.com/thoughtbot/guides)
