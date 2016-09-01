@@ -1,4 +1,7 @@
-# Running builds with Travis CI
+# Tests and builds with Travis CI
+Any new class must be tested. 
+All moethods in the class must be tests and scenarii covered.
+
 Always be sure that, after your last commit, the build is successful.
 If not, you ***MUST*** fix the build.
 
