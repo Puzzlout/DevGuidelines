@@ -56,8 +56,11 @@ If you are working with someone else on that task or milestone, make sure to:
 
 ## In command line 
 ***You may need this to fix conflicts when merging the dev to the feature branch.***
+
 `git checkout {target_branch_name}`
+
 `git merge --no-ff {source_branch_name}`
+
 `git push origin {target_branch_name}`
 
 # Steps to delete a branch
